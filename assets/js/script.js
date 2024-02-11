@@ -16,3 +16,6 @@ function logicaJuego(decisionUsuario, decisionComputador) {
 
 // Pregunta al usuario cuántas veces quiere jugar
 const jugadas = parseInt(prompt("¿Cuántas veces quieres jugar?"));
+
+// Mensaje de inicio
+console.log("¡Comencemos el juego!");
