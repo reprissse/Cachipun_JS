@@ -26,3 +26,10 @@ for (let i = 0; i < jugadas; i++) {
     const decisionComputador = eleccionAleatoria();
     logicaJuego(decisionUsuario, decisionComputador);
 }
+
+// Función que elige aleatoriamente entre piedra, papel o tijera
+function eleccionAleatoria() {
+    const opciones = ["piedra", "papel", "tijera"];
+    const indiceAleatorio = Math.floor(Math.random() * opciones.length);
+    return opciones[indiceAleatorio];
+}
