@@ -12,3 +12,7 @@ function logicaJuego(decisionUsuario, decisionComputador) {
         console.log(decisionUsuario + " vs " + decisionComputador + " GANA el usuario");
     }
 }
+
+
+// Pregunta al usuario cuántas veces quiere jugar
+const jugadas = parseInt(prompt("¿Cuántas veces quieres jugar?"));
