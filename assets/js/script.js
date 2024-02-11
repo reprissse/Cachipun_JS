@@ -19,3 +19,10 @@ const jugadas = parseInt(prompt("¿Cuántas veces quieres jugar?"));
 
 // Mensaje de inicio
 console.log("¡Comencemos el juego!");
+
+// Repite el juego según la cantidad de veces elegida
+for (let i = 0; i < jugadas; i++) {
+    const decisionUsuario = prompt("¿Piedra, papel o tijera?");
+    const decisionComputador = eleccionAleatoria();
+    logicaJuego(decisionUsuario, decisionComputador);
+}
